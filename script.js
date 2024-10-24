@@ -52,7 +52,7 @@ const handle_click = (e) => {
 
     const ul = parent?.querySelector('ul')
     if (ul) {
-        adjustTransitionDuration(ul)
+        adjust_transition_duration(ul)
         if (ul.classList.contains('active')) {
             ul.style.height = `0px`
             ul.classList.remove('active')
