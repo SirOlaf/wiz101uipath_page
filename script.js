@@ -5,7 +5,7 @@ const ul_listeners = new WeakSet()
  * Adjusts the transition duration based on element height.
  * @param {HTMLElement} element - The element being toggled.
  */
-const adjustTransitionDuration = (element) => {
+const adjust_transition_duration = (element) => {
     const height = element.scrollHeight;
 
     // Calculate the duration based on the height (adjust the factor as needed)
