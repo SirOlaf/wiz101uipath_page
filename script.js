@@ -214,9 +214,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     mouse_enter(e)
                 }
                 return
-            case "SPAN":
             case "BUTTON":
                 mouse_enter(e)
+            case "SPAN":
             case "LI":
                 mouse_enter(e)
                 li_mouse_enter(e)

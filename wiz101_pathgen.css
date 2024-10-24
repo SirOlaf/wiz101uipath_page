@@ -62,7 +62,7 @@ ul>* {
 
 li {
     overflow: hidden;
-    margin-block: 2px;
+    padding-block: 2px;
 }
 
 .ul_hover {
