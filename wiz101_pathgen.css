@@ -66,10 +66,21 @@ li {
 }
 
 .ul_hover {
+    position: relative;
     background: #242424;
-    border-left: 1px solid #2B2A2A;
     border-color: #bc4749;
 }
+
+.ul_hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: #bc4749;
+}
+
 
 .caret {
     position: sticky;
