@@ -66,7 +66,9 @@ li {
 }
 
 .ul_hover {
-    background: #1A1919;
+    background: #242424;
+    border-left: 1px solid #2B2A2A;
+    border-color: #bc4749;
 }
 
 .caret {
